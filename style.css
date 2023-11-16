@@ -1,0 +1,82 @@
+* {
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5cdfa;
+}
+
+header h1 {
+margin-left: -250px;
+display: flex;
+flex-wrap: wrap;
+}
+
+.name {
+    font-size: 50px;
+    letter-spacing: 5px;
+    color:#173311;
+    display:flex
+}
+.avatar {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 150%;
+}
+
+body {
+    background-color: #9ee391;
+}
+
+.nav ul{
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+}
+
+ul.menu li a {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.about-me {
+    display:block;
+    margin: 0px;
+}
+
+.horizeon {
+    width: 300px;
+    border: 5px solid whitesmoke;
+    background-color: #173311;
+}
+
+.horizeon:hover {
+    transform: scale(1.1);
+}
+
+.vision {
+    width: 300px;
+    border: 5px solid whitesmoke;
+    background-color:#173311;
+}
+
+.vision:hover {
+    transform: scale(1.1);
+}
+.contact {
+    display: block;
+    margin: 0px;
+}
+ul.info li a {
+    color: #173311;
+    margin-left: -10px;
+}
